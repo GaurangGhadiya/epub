@@ -3,11 +3,13 @@ import styled from 'styled-components'
 import * as styles from 'lib/styles/styles'
 import palette from 'lib/styles/palette'
 import { mediaQuery } from 'lib/styles/media'
+import logo from "../../logo.png"
+
 
 const Logo = () => {
 	return (
-		<Wrapper href="https://github.com/altmshfkgudtjr/react-epub-viewer" target="__blank__">
-			<Img src="/react-epub-viewer/images/logo.png" alt="Logo" />
+		<Wrapper href="https://github.com/GaurangGhadiya/epub" target="__blank__">
+			<Img src={logo} alt="Logo" />
 		</Wrapper>
 	);
 }
