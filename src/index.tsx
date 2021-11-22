@@ -6,5 +6,7 @@ let data = window.location.pathname
 let first = data.split("/")[2]
 data = data.split("/")[4]
 console.log(first,"data, ",data);
-const EPUB_URL = `https://ebook12.s3.eu-central-1.amazonaws.com/${first}/pdf/${data}.epub`;
+const EPUB_URL = `https://ebook12.s3.eu-central-1.amazonaws.com/${first}/pdf/${data}`;
+console.log("EPUB_URL",EPUB_URL);
+
 ReactDOM.render(<Reader url={EPUB_URL} />,  document.getElementById('root'));   
