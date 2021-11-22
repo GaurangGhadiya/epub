@@ -1,7 +1,7 @@
 {
   "name": "react-epub-viewer",
   "version": "0.1.3",
-  "homepage" : "https://GaurangGhadiya.github.io/epub",
+  "homepage": "https://GaurangGhadiya.github.io/epub",
   "author": {
     "name": "NB",
     "email": "altmshfkgudtjr@naver.com"
@@ -19,7 +19,6 @@
     "lib",
     "README.md"
   ],
-
   "repository": {
     "type": "git",
     "url": "https://github.com/altmshfkgudtjr/react-epub-viewer"
@@ -35,7 +34,6 @@
     "prebuild": "react-scripts test --watchAll=false --passWithNoTests",
     "build": " react-scripts build",
     "test": "react-scripts test",
-   
     "clean": "rimraf lib",
     "precompile": "react-scripts test --watchAll=false --passWithNoTests && yarn clean",
     "compile": "babel src --out-dir lib --extensions .ts,.tsx",
@@ -43,6 +41,7 @@
   },
   "dependencies": {
     "epubjs": "^0.3.88",
+    "query-string": "^7.0.1",
     "react-epub-viewer": "^0.1.7"
   },
   "devDependencies": {
